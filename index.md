@@ -21,7 +21,7 @@ knit        : slidify::knit2slides
 
 * The app has one output value - the day of the week to which your birthday corresponds.
 
---- .class #id 
+--- 
 
 ## Goals
 
@@ -29,13 +29,13 @@ knit        : slidify::knit2slides
 
 * I thought it would be nice if there was a simple app for this in Shiny for those who have a similar curiosity (or those who can't be bothered figuring out the commands in R).
 
---- .class #id
+--- 
 
 ## Example 
 
 ![BirthdayCalculator.png](BirthdayCalculator.png)
 
---- .class #id
+--- 
 
 ## Relevant Code
 
@@ -57,7 +57,7 @@ sidebarPanel(
 )
 ```
 
---- .class ~id
+--- 
 
 ## Conclusion
 
